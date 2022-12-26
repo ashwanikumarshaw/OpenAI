@@ -64,6 +64,8 @@ function chatStripe(isAi, value, uniqeId) {
 
 //handle after submit
 const handleSubmit = async (e) => { 
+    e.preventDefault()
+
     const data = new FormData(form);
     
     //user's charStripe
@@ -89,7 +91,7 @@ const handleSubmit = async (e) => {
         })
     })
 
-    clearImmediate(loadInterval);
+    clearInterval(loadInterval)
     messageDiv.innerHTML = '';
     if (response.ok) {
         const data = await response.json();
@@ -104,11 +106,13 @@ const handleSubmit = async (e) => {
 }
 
 //we have to call handleSubmit 
-form.addEventListener('submit', handleSubmit);
+
+form.addEventListener('submit', handleSubmit)
 
 //when submit using enter button 
-form.addEventListener('keyup', (e) => { 
-    if (e.keyCode === 13) { 
-        handleSubmit(e);
+
+form.addEventListener('keyup', (e) => {
+    if (e.keyCode === 13) {
+        handleSubmit(e)
     }
-});
+})
