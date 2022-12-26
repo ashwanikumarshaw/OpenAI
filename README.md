@@ -10,7 +10,9 @@ cd .\client\
 
 npm install
 
-import asserts zip form : https://github.com/adrianhajdin/project_openai_codex/tree/main/client/assets
+import asserts zip form : https://github.com/ashwanikumarshaw/OpenAI/blob/master/assets.zip 
+
+-by @adrianhajdin
 
 Add style css for app
 
