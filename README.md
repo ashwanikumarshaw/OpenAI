@@ -48,5 +48,7 @@ To run server - npm run server
 
 Deploy server using : render.com
 eg. https://openaicodx.onrender.com
+
 Deploy client using : vercel.com
-eg. open-hricwhdf1-ashwanikumarshaw.vercel.app
+eg. https://open-1sdbowscc-ashwanikumarshaw.vercel.app/
+or https://open-ai-iota.vercel.app/
