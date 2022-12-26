@@ -19,7 +19,7 @@ Delete vite.svg and counter.js
 
 Goto the index.html and script.js - add the javascript functions
 
-To run - npm rum dev
+To run frontend - npm rum dev
 
 create server folder
 cd..
@@ -35,3 +35,11 @@ create account
 click on accouct name and select api key and create an api key
 
 Create a .ENV file in root of the folder and add a variable OPENAI_API_KEY with value as key
+
+Update package.json
+"type": "module",
+"scripts": {
+"server": "nodemon server"
+}
+
+To run server - npm run server
