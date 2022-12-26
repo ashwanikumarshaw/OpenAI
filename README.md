@@ -52,3 +52,7 @@ eg. https://openaicodx.onrender.com
 Deploy client using : vercel.com
 eg. https://open-1sdbowscc-ashwanikumarshaw.vercel.app/
 or https://open-ai-iota.vercel.app/
+
+
+![image](https://user-images.githubusercontent.com/35097948/209583812-daa0c37f-5b91-4d76-99b4-6f0d8c4c1b70.png)
+
