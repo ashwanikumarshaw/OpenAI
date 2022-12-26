@@ -2,7 +2,8 @@
 
 AI like ChatGPT AI App in JavaScript
 
-step by step:
+## step by step:
+
 npm create vite@latest client --template vanilla
 
 cd .\client\
